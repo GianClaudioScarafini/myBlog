@@ -4,6 +4,8 @@ nav:
     - Home: index.md
     - About: about.
 theme:
-    name: mkdocs
-    locale: en
-    include_sidebar: false
+    name: readthedocs
+    highlightjs: true
+    hljs_languages:
+        - yaml
+        - rust
